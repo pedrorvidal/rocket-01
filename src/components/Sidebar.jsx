@@ -15,7 +15,7 @@ export default function Sidebar() {
           src="https://github.com/pedrorvidal.png"
           alt="Pedro Vidal"
         />
-        <strong>Madruga</strong>
+        <strong>Vidal</strong>
         <span>Web Developer</span>
       </div>
       <footer>

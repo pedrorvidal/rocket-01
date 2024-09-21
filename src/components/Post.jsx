@@ -27,8 +27,10 @@ export function Post() {
         <p>
           👉 <a href="#">jane.design/doctorcare</a>
         </p>
-        <p>
-          <a href="#">#novoprojeto #nlw #rocketseat</a>
+        <p className={styles.tags}>
+          <a href="#">#novoprojeto</a>
+          <a href="#">#nlw</a>
+          <a href="#">#rocketseat</a>
         </p>
       </div>
     </article>

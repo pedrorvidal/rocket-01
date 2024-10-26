@@ -1,20 +1,19 @@
 import { Comment } from "./Comment";
 import styles from "./Post.module.css";
+import { Avatar } from "./Avatar";
 
 export function Post(props) {
-  console.log(props)
   return (
     <article className={styles.post}>
       <header>
         <div className={styles.author}>
-          <img
+          <Avatar
+            src={props.author.avatarUrl}
             className={styles.avatar}
-            src="https://github.com/pedrorvidal.png"
-            alt=""
           />
           <div className={styles.authorInfo}>
-            <strong>Vidal</strong>
-            <span>Web Developer</span>
+            <strong>{props.author.name}</strong>
+            <span>{props.author.role}</span>
           </div>
         </div>
         <time title="11 de Maio às 08:13h" dateTime="2022-05-11 08:13:30">

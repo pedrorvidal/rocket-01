@@ -10,7 +10,7 @@ const posts = [
     id: 1,
     author: {
       avatarUrl: "https://github.com/pedrorvidal.png",
-      nome: "Pedro Vidal",
+      name: "Pedro Vidal",
       role: "Web Developer",
     },
     content: [
@@ -29,8 +29,8 @@ const posts = [
     id: 2,
     author: {
       avatarUrl: "https://github.com/maykbrito.png",
-      nome: "Mayk Brito",
-      role: "Educator @ Rocketseat",
+      name: "Mayk Brito",
+      role: "Educator @Rocketseat",
     },
     content: [
       { type: "paragraph", content: "Fala galeraa 👋" },
